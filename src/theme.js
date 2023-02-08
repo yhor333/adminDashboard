@@ -1,5 +1,5 @@
 import { createContext, useMemo } from 'react';
-import { createTheme } from '@mui/system';
+import { createTheme } from '@mui/material';
 import { useState } from 'react';
 
 export const tokens = (mode) => ({
@@ -20,7 +20,7 @@ export const tokens = (mode) => ({
           100: '#d0d1d5',
           200: '#a1a4ab',
           300: '#727681',
-          400: '#f2f0f0',
+          400: '#101624',
           500: '#141b2d',
           600: '#101624',
           700: '#0c101b',
@@ -77,7 +77,7 @@ export const tokens = (mode) => ({
           100: '#040509',
           200: '#080b12',
           300: '#0c101b',
-          400: '#101624',
+          400: '#f2f0f0',
           500: '#141b2d',
           600: '#434957',
           700: '#727681',
